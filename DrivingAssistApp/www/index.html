@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Drive</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/index.css" />
+    <link type="text/css" rel="stylesheet" href="css/android.css" />
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdF7JJYAzcnLBgnzDkBtgrs25V5ZmK_PE"></script>
+    <script type="text/javascript" src="scripts/index.js?id=2"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+</head>
+<body>
+    <div id="navbar">
+        <button id="park" onClick="setParkingLocation()">PARK HERE</button>
+        Drive
+        <button id="retrieve" onClick="getParkingLocation()">FIND</button>
+    </div>
+    <div id="container">
+        <div id="instructions">
+            <p>Click the PARK HERE button to set your Parking Location</p>
+            <p>Click the FIND button to get the Parking Location</p>
+            <p style="text-align: center"><button id="gotIt" onClick="setCss('instructions','display','none')">Ok</button></p>
+        </div>
+        <div id="map"></div>
+        <div id="directions"></div>
+    </div>
+</body>
+</html>

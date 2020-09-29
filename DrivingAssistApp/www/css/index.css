@@ -1,0 +1,63 @@
+/*layout*/
+body {
+    font-size: 16pt;
+}
+
+#navbar {
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 1.4em;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+}
+
+#park {
+    float: left;
+}
+
+#retrieve {
+    float: right;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 0px 15px;
+    font-size: large;
+}
+
+#container {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    width: 100%;
+}
+
+#instructions {
+    position: relative;
+    width: 90%;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+#map {
+    position: relative;
+    height: 320px;
+    width: 90%;
+    max-width: 320px;
+    margin: 15px auto;
+    padding: 0px 10px;
+    visibility: hidden;
+}
+
+#directions {
+    position: relative;
+    height: auto;
+    width: 90%;
+    max-width: 320px;
+    margin: 15px auto;
+    padding: 10px 10px;
+    visibility: hidden;
+}
